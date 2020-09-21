@@ -38446,10 +38446,7 @@ var render = function() {
         [
           _c("img", {
             staticClass: "h-8 w-8",
-            attrs: {
-              src: "/storage/flags/" + _vm.locale + "1.png",
-              alt: "flag"
-            }
+            attrs: { src: "/images/" + _vm.locale + "1.png", alt: "flag" }
           }),
           _vm._v(" "),
           _c("span", { staticClass: "ml-2" }, [
@@ -38590,10 +38587,7 @@ var render = function() {
                     [
                       _c("img", {
                         staticClass: "h-8 w-8",
-                        attrs: {
-                          src: "/storage/flags/en1.png",
-                          alt: "english flag"
-                        }
+                        attrs: { src: "/images/en1.png", alt: "english flag" }
                       }),
                       _vm._v(" "),
                       _c("span", { staticClass: "ml-2 text-style" }, [
@@ -38720,10 +38714,7 @@ var render = function() {
                     [
                       _c("img", {
                         staticClass: "h-8 w-8",
-                        attrs: {
-                          src: "/storage/flags/my1.png",
-                          alt: "myanmar flag"
-                        }
+                        attrs: { src: "/images/my1.png", alt: "myanmar flag" }
                       }),
                       _vm._v(" "),
                       _c("span", { staticClass: "ml-2 text-style" }, [

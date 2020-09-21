@@ -10,7 +10,7 @@
       @keydown.up.exact.prevent="startArrowKeys"
       @keydown.down.exact.prevent="startArrowKeys"
     >
-      <img :src="`/storage/flags/${locale}1.png`" alt="flag" class="h-8 w-8">
+      <img :src="`/images/${locale}1.png`" alt="flag" class="h-8 w-8">
       <span class="ml-2">{{locale.toUpperCase()}}</span>
       <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path class="heroicon-ui" d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z"></path></svg>
     </button>
@@ -26,7 +26,7 @@
             @keydown.down.exact.prevent="focusNext(true)"
             @keydown.esc.exact="hideDropdown"
           >
-            <img :src="'/storage/flags/en1.png'" alt="english flag" class="h-8 w-8">
+            <img :src="'/images/en1.png'" alt="english flag" class="h-8 w-8">
             <span class="ml-2 text-style">English</span>
           </a>
         </li>
@@ -54,7 +54,7 @@
             @keydown.tab.exact="hideDropdown"
             @keydown.esc.exact="hideDropdown"
           >
-            <img :src="'/storage/flags/my1.png'" alt="myanmar flag" class="h-8 w-8">
+            <img :src="'/images/my1.png'" alt="myanmar flag" class="h-8 w-8">
             <span class="ml-2 text-style">Myanmar</span>
           </a>
         </li>
