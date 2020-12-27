@@ -1,15 +1,23 @@
 {
-    "Name" : "အမည်",
-    "E-Mail Address" : "အီးေမးလ် လိပ်စာ",
-    "Password" : "စကားဝှက်",
-    "Forgot Your Password?" : "အကောင့်မေ့နေပါသလား။",
-    "Remember Me" : "မှတ်သားထားရန်",
-    "En" : "English (UK)",
-    "My" : "မြန်မာဘာသာ",
-    "Myanmar" : "မြန်မာဘာသာ",
-    "Login" : "လော့ဂ်အင်ဝင်မယ်",
-    "Register"  : "အကောင့်သစ် ဖွင့်မယ်",
-    "Logout" : "အ ေကာင့်ထွက်ရန်"
-}
+    "Name": "အမည်",
+    "E-Mail Address": "အီးေမးလ် လိပ်စာ",
+    "Password": "စကားဝှက်",
+    "Forgot Your Password?": "အကောင့်မေ့နေပါသလား။",
+    "Remember Me": "မှတ်သားထားရန်",
 
-                                    
+    "Myanmar": "မြန်မာဘာသာ",
+    "Login": "လော့ဂ်အင်ဝင်မယ်",
+    "Register": "အကောင့်သစ် ဖွင့်မယ်",
+    "Logout": "အ ေကာင့်ထွက်ရန်",
+    "Contact Information": "ဆက်သွယ်ရန်",
+    "Related Links": "အသုံးဝင်သောလင့်ခ်များ",
+    "To Inquire": "စုံစမ်းရန်",
+    "Social Media": "ဆိုရှယ် မီဒီယာ",
+
+    "About us": "ဆေးရုံအကြောင်း",
+    "Read more": "ပိုမိုသိရှိရန်",
+    "Phone": "ဖုန်း",
+    "Email": "မေးလ်",
+
+    "Departments": "အထူးကုဌာနများ"
+}

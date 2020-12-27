@@ -28,6 +28,8 @@ return [
 
     'controllers' => [
         'namespace' => 'TCG\\Voyager\\Http\\Controllers',
+        // 'namespace' => 'App\\Http\\Controllers\\Voyager',
+        'namespace' => 'App\Http\Controllers\Back',
     ],
 
     /*
@@ -99,7 +101,7 @@ return [
         /*
          * Set whether or not the multilingual is supported by the BREAD input.
          */
-        'enabled' => false,
+        'enabled' => true,
 
         /*
          * Select default language
@@ -111,7 +113,7 @@ return [
          */
         'locales' => [
             'en',
-            //'pt',
+            'my',
         ],
     ],
 
@@ -189,11 +191,11 @@ return [
 
     // Here you can specify additional assets you would like to be included in the master.blade
     'additional_css' => [
-        //'css/custom.css',
+        // 'css/app.css',
     ],
 
     'additional_js' => [
-        //'js/custom.js',
+        // 'js/script.js',
     ],
 
     'googlemaps' => [

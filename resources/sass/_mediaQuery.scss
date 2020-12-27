@@ -1,0 +1,91 @@
+/*
+|----------------------------------------------------------------------------------------------
+| Media Query (Min)
+|----------------------------------------------------------------------------------------------
+| Small devices (landscape phones, 576px and up), 
+| Medium devices (tablets, 768px and up), 
+| Large devices (desktops, 992px and up), 
+| Extra large devices (large desktops, 1200px and up), 
+| and other standard screen sizes (414px, 375px and 320px and up - Note: get from browser)
+|----------------------------------------------------------------------------------------------
+|
+*/
+
+// Small devices (landscape phones, 320px and up)
+@media (min-width: 320px) {}
+
+// Small devices (landscape phones, 375px and up)
+@media (min-width: 375px) {}
+
+// Small devices (landscape phones, 414px and up)
+@media (min-width: 414px) {}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .about-us {
+        .hello {
+            webkit-column-count: 2;
+            -moz-column-count: 2;
+            -ms-column-count: 2;
+            -o-column-count: 2;
+            column-count: 2;
+            -webkit-column-gap: 30px;
+            -moz-column-gap: 30px;
+            -ms-column-gap: 30px;
+            -o-column-gap: 30px;
+            column-gap: 30px;
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
+
+// Large devices (normal laptop)
+@media (min-width: 1368px) {}
+
+
+/*
+|----------------------------------------------------------------------------------------------
+| Media Query (Max)
+|----------------------------------------------------------------------------------------------
+| Large devices (desktops, less than 1200px), 
+| Medium devices (tablets, less than 992px), 
+| Small devices (landscape phones, less than 768px), 
+| Extra small devices (portrait phones, less than 576px), 
+| and other standard screen sizes (less than 414px, 375px and 320px - Note: get from browser)
+|----------------------------------------------------------------------------------------------
+|
+*/
+
+// Large devices (normal laptop)
+@media (max-width: 1367.98px) {}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991px) {}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    .hospital-about {
+        .hospital-about-content {
+            p {
+                padding: 0;
+            }
+        }
+    }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {}
+
+// Extra small devices (portrait phones, less than 414px)
+@media (max-width: 413.98px) {}

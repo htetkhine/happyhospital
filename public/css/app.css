@@ -1,0 +1,544 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span,
+div {
+  font-family: "Pyidaungsu", sans-serif;
+}
+
+section {
+  padding: 74px 0;
+}
+
+.pd50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.default-title h2,
+.default-title h4 {
+  font-weight: bold;
+  color: #009966;
+}
+
+.default-title h2 {
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.default-title h2.service-sibedar-title {
+  margin-bottom: 15px;
+}
+
+.default-title h4 {
+  font-size: 25px;
+  text-align: left;
+}
+
+.default-title h4 a {
+  color: #009966;
+}
+
+.default-title .contact-form {
+  margin-top: 0;
+}
+
+.btn-primary {
+  border: 1px solid #009966;
+  padding: 10px 45px;
+  border-radius: 5px;
+  background-color: #009966;
+  color: #ffffff;
+  transition: ease-in-out 1s;
+}
+
+.btn-primary.alt {
+  background-color: transparent;
+  border-color: #009966;
+  color: #009966;
+}
+
+.btn-primary.alt:hover {
+  background-color: #009966;
+  color: #ffffff;
+  border: 1px solid #009966;
+}
+
+.btn-primary:hover {
+  background-color: transparent;
+  border-color: #009966;
+  color: #009966;
+}
+
+.btn-primary:active {
+  background-color: transparent !important;
+  border-color: #009966 !important;
+  color: #009966 !important;
+}
+
+.btn-primary:focus {
+  box-shadow: none !important;
+}
+
+/*
+|----------------------------------------------------------------------------------------------
+| Stellarnav Menu
+|----------------------------------------------------------------------------------------------
+*/
+
+.stellarnav a {
+  color: #ffffff;
+}
+
+.stellarnav a:hover {
+  color: #000000;
+  transition: 1s;
+}
+
+.stellarnav a:active {
+  color: #000000;
+}
+
+.stellarnav .icon-close::before {
+  border-bottom: solid 3px #ffffff;
+}
+
+.stellarnav .icon-close::after {
+  border-bottom: solid 3px #ffffff;
+}
+
+.stellarnav.mobile ul {
+  background: rgba(0, 153, 102, 0.9);
+}
+
+.stellarnav.mobile ul li.current-menu-parent > a {
+  color: #000000;
+}
+
+.stellarnav .menu-toggle span.bars span {
+  background: #ffffff;
+}
+
+.stellarnav ul {
+  text-align: left;
+}
+
+.stellarnav > ul > li > a {
+  padding: 15px 24px 15px 0px;
+}
+
+.stellarnav li ul.sub-menu li a {
+  color: #323232;
+  transition: all 0.4s;
+}
+
+.stellarnav li ul.sub-menu li a:hover {
+  color: #009966;
+}
+
+.stellarnav li ul.sub-menu:hover {
+  max-width: 1016px !important;
+}
+
+.stellarnav li a {
+  color: #ffffff;
+}
+
+.stellarnav li.current-menu-item a {
+  color: #000000;
+}
+
+.stellarnav.desktop > ul > li.current-menu-parent > a {
+  color: #000;
+}
+
+.stellarnav.desktop > ul > li.mega > ul > li {
+  padding-bottom: 5px;
+  word-break: break-all;
+}
+
+.stellarnav ul.sub-menu li.current-menu-item a,
+.stellarnav.desktop > ul > li.mega > ul > li.current-menu-item > a {
+  color: #000000;
+}
+
+.stellarnav.desktop > ul > li.mega > ul > li > a:hover {
+  color: #009966;
+}
+
+.stellarnav.desktop > ul > li.mega > ul > li > a:hover:focus {
+  color: #000000;
+}
+
+.stellarnav.desktop > ul > li.mega > ul > li > a:hover:active {
+  color: #000000;
+}
+
+/*
+|----------------------------------------------------------------------------------------------
+| Header
+|----------------------------------------------------------------------------------------------
+*/
+
+header .header-social {
+  background-color: #F4F4F4;
+  padding: 15px 0;
+}
+
+header .header-social ul {
+  padding: 0;
+}
+
+header .header-social ul li.item {
+  float: left;
+  list-style: none;
+}
+
+header .header-social ul li.item a {
+  color: #323232;
+  text-decoration: none;
+}
+
+header .header-social ul li.item a:hover {
+  color: #009966;
+}
+
+header .header-social ul li.item .link {
+  padding-right: 15px;
+}
+
+header .header-social ul li.item.active a {
+  color: #009966;
+}
+
+header .header-logo .list-inline-item {
+  padding-right: 25px;
+  border-right: 1px solid #D3D3D3;
+}
+
+header .header-logo .list-inline-item:last-child {
+  border-right: 0;
+  padding-right: 0px;
+}
+
+header .header-logo .separator {
+  padding-left: 10px;
+}
+
+header .header-logo p {
+  color: #747474;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 28px;
+  margin: 0;
+  text-align: left;
+}
+
+header .header-logo a {
+  color: #323232;
+  font-weight: bold;
+}
+
+header .header-logo ul {
+  margin: 18px 0;
+  /*float: right;*/
+}
+
+header .header-logo .social-icon img {
+  font-size: 35px;
+  float: left;
+  margin-right: 15px;
+  position: relative;
+  top: 10px;
+  color: #009966;
+}
+
+header .header-logo .social-icon .social-data {
+  overflow: hidden;
+  word-break: break-all;
+}
+
+header .header-menu {
+  background-color: #009966;
+}
+
+header .header-menu #menu-main-menu {
+  z-index: 10000;
+  width: 96%;
+  display: inline-block;
+}
+
+.current-menu-item a i {
+  color: #000000;
+}
+
+.hospital-slider {
+  padding: 0;
+}
+
+.hospital-slider .carousel-caption {
+  bottom: 35%;
+  text-align: left;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.hospital-slider .carousel-caption h1 {
+  font-size: 44px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.hospital-about .hospital-about-content h2 {
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+
+.hospital-about .hospital-about-content p {
+  text-align: center;
+  font-size: 17px;
+  line-height: 33px;
+  color: #4B4B4B;
+  margin-bottom: 45px;
+  padding: 0px 90px;
+}
+
+.hospital-department {
+  background-color: #F4F4F4;
+}
+
+.hospital-department img {
+  width: 100%;
+}
+
+.general-department {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: ease-in-out 0.5s !important;
+  border-radius: 8px;
+  min-height: 432px;
+}
+
+.general-department .depts-icon-parent {
+  position: relative;
+}
+
+.general-department .depts-icon-parent img {
+  border-radius: 8px 8px 0px 0px;
+  width: 100%;
+}
+
+.general-department .depts-icon-child {
+  position: absolute;
+  width: 58px;
+  height: 58px;
+  bottom: -25px;
+  left: 42%;
+  background-color: #009966;
+  border-radius: 50px;
+}
+
+.general-department .depts-icon-child img {
+  padding: 15px;
+  transform: rotate(360deg);
+  transition: all 0.4s ease-out 0s;
+}
+
+.general-department:hover {
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+.general-department:hover .depts-icon-child img {
+  transform: rotate(0);
+}
+
+.general-department .content-align {
+  padding: 42px 30px;
+}
+
+.general-department .card-body h5,
+.general-department .card-body p {
+  font-style: normal;
+}
+
+.general-department .card-body h5 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 900;
+  color: #323232;
+  transition: all 0.4s;
+}
+
+.general-department .card-body h5:hover {
+  color: #009966;
+}
+
+.general-department .card-body p {
+  font-size: 15px;
+  line-height: 28px;
+  font-weight: normal;
+  color: #4B4B4B;
+  margin-bottom: 0;
+}
+
+.about-us .profile-img {
+  margin-bottom: 30px;
+}
+
+.about-us .profile-img img {
+  max-width: 100%;
+  border-radius: 4px;
+  box-shadow: 2px 2px 10px 2px #32323254;
+}
+
+.pagination {
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.pagination li.page-item {
+  margin-right: 10px;
+  background: #009966;
+  padding: 4px 8px;
+  border-radius: 50px;
+  color: #ffffff;
+  font-size: 18px;
+  transition: all 0.4s;
+}
+
+.pagination li.page-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 6px 0px rgba(58, 57, 57, 0.3882352941);
+}
+
+.pagination li.page-item span.page-link,
+.pagination li.page-item a.page-link {
+  color: white;
+  background-color: unset;
+  border: none;
+}
+
+.pagination li.page-item span.page-link:focus,
+.pagination li.page-item a.page-link:focus {
+  box-shadow: unset;
+  transition: 0.3s;
+}
+
+.imgae-upload-form .row > [class*=col-] {
+  margin-bottom: 0;
+}
+
+.imgae-upload-form h4 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.imgae-upload-form form {
+  background: #ffffff;
+  border: 1px solid #eee;
+  display: block;
+  padding: 50px 30px;
+}
+
+.imgae-upload-form .flash-message .alert.alert-success {
+  width: 55% !important;
+}
+
+.imgae-upload-form .flash-message .alert .close {
+  right: -80px;
+  top: -12px;
+  opacity: 0.3;
+}
+
+footer .footer-first {
+  background-color: #323232;
+}
+
+footer .footer-first h5 {
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+footer .footer-first .contact_item {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer .footer-first .contact_item li {
+  list-style: none;
+}
+
+footer .footer-first .contact_item li i {
+  color: #009966;
+  float: left;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+footer .footer-first .contact_item li p {
+  color: #ffffff;
+}
+
+footer .footer-copyright {
+  padding: 16px 0;
+  background-color: #4B4B4B;
+}
+
+footer .footer-copyright p {
+  color: #ffffff;
+}
+
+/*
+|----------------------------------------------------------------------------------------------
+| Media Query (Min)
+|----------------------------------------------------------------------------------------------
+| Small devices (landscape phones, 576px and up), 
+| Medium devices (tablets, 768px and up), 
+| Large devices (desktops, 992px and up), 
+| Extra large devices (large desktops, 1200px and up), 
+| and other standard screen sizes (414px, 375px and 320px and up - Note: get from browser)
+|----------------------------------------------------------------------------------------------
+|
+*/
+
+@media (min-width: 768px) {
+  .about-us .hello {
+    webkit-column-count: 2;
+    -moz-column-count: 2;
+    -ms-column-count: 2;
+    -o-column-count: 2;
+    column-count: 2;
+    -moz-column-gap: 30px;
+    -ms-column-gap: 30px;
+    -o-column-gap: 30px;
+    column-gap: 30px;
+  }
+}
+
+/*
+|----------------------------------------------------------------------------------------------
+| Media Query (Max)
+|----------------------------------------------------------------------------------------------
+| Large devices (desktops, less than 1200px), 
+| Medium devices (tablets, less than 992px), 
+| Small devices (landscape phones, less than 768px), 
+| Extra small devices (portrait phones, less than 576px), 
+| and other standard screen sizes (less than 414px, 375px and 320px - Note: get from browser)
+|----------------------------------------------------------------------------------------------
+|
+*/
+
+@media (max-width: 767.98px) {
+  .hospital-about .hospital-about-content p {
+    padding: 0;
+  }
+}
+

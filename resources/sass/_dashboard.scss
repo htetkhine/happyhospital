@@ -1,0 +1,27 @@
+.imgae-upload-form {
+    .row>[class*=col-] {
+        margin-bottom: 0;
+    }
+    h4 {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    form {
+        background: #ffffff;
+        border: 1px solid #eee;
+        display: block;
+        padding: 50px 30px;
+    }
+    .flash-message {
+        .alert {
+            &.alert-success {
+                width: 55% !important;
+            }
+            .close {
+                right: -80px;
+                top: -12px;
+                opacity: .3;
+            }
+        }
+    }
+}

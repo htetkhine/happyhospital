@@ -3,8 +3,11 @@
 namespace App\Http\Middleware;
 
 use Closure;
+use Session;
+use App;
+use Config;
 
-class Setlanguage
+class SetLocale
 {
     /**
      * Handle an incoming request.
@@ -15,9 +18,7 @@ class Setlanguage
      */
     public function handle($request, Closure $next)
     {
-
-        \App::setlocale($request->language);
-
+        \App::setLocale($request->segment(1));
         return $next($request);
     }
 }
