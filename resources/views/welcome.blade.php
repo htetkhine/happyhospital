@@ -45,7 +45,7 @@
                 @if ($department->add_home == 1)
                     <div class="col-lg-4 col-md-6 col-12 mb-lg-4 mb-md-4 mb-5">
                         <div class="card general-department" data-aos="fade-right">
-                            <a href="" title="<?php echo $title; ?>" class="text-decoration-none">
+                            <a href="{{ route('single' , ['locale' => app()->getLocale(), 'slug' => $department->slug])}}" title="<?php echo $title; ?>" class="text-decoration-none">
                                 <div class=" depts-icon-parent">
                                     <img src="{{URL::asset('storage/'.$department->image)}}" alt="<?php echo $title; ?>" class="img-fluid">
                                     @if (!empty($department->add_icon))
