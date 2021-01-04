@@ -3,7 +3,7 @@
 @section('content')
 <div class="outer-wrapper">
     <div class="logo-wrap text-center">
-        <img class="img-fluid" src="https://www.myyangon.com.mm/storage/settings/October2020/HML3crvMb33vvDYMAthx.png" alt="Logo Icon">
+        <img class="img-fluid" src="{{asset('storage/setting/logo.png')}}" alt="Logo Icon">
     </div>
     <div class="login-container">
         <form action="{{ route('voyager.login') }}" method="POST">
